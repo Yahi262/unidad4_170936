@@ -1,0 +1,8 @@
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">{{nota.fecha | date: 'dd - MM - yyyy'}}</div>
+    <!--usamos la interpolacion y el punto para acceder a las propiedades del objeto-->
+    <div class="card-body">
+      <h5 class="card-title">{{nota.titulo}}</h5>
+      <p class="card-text">{{nota.descripcion}}</p>
+    </div>
+</div>
